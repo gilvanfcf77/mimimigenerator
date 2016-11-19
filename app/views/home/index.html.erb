@@ -1,0 +1,23 @@
+<form action="/translate" method="post">
+<h1 align="center">"Por que você não amadurece" - Tradutor</h1>
+
+ <table style="width:100%">
+  <tr>
+    <th>Texto</th>
+    <th>Tradução</th>
+  </tr>
+  <tr>
+    <td align="center"><input type="text" name="portuguese" value= "" style="width: 400px; height: 200px"></td>
+    <td align="center">
+    <%= text_field :ecard, :sender, :value => params[:mimimi], style: 'width: 400px; height: 200px'  %>    
+    </td>
+  </tr>
+  
+</table>
+
+<center>
+<br>
+<br>
+<br>
+<input type="submit" name="Submit" value="Traduzir"></center>
+</form>

@@ -8,9 +8,9 @@
     <th>Tradução</th>
   </tr>
   <tr>
-    <td align="center"><input type="text" name="portuguese" value= "" style="width: 400px; height: 200px"></td>
+    <td align="center"><input type="text" name="portuguese" value= "" style="width: 400px; height: 200px; font-size:25px"></td>
     <td align="center">
-    <%= text_field :ecard, :sender, :value => params[:mimimi], style: 'width: 400px; height: 200px'  %>    
+    <%= text_field :ecard, :sender, :value => params[:mimimi], style: 'width: 400px; height: 200px; font-size:25px', :readonly => true %>    
     </td>
   </tr>
   
@@ -26,6 +26,9 @@
 
 <div class="footerholder">
     <div class="footer">
+    	<br>
+    	<br>
+    	<br>
   		<p>Posted by: Gilvan Ferreira</p>
   		<p>Contact information: <a href="mailto:gilvanfcf77@gmail.com">
   			gilvanfcf77@gmail.com</a>.</p>
